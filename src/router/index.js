@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import AppCart from '@/components/AppCart.vue';
-import ProductsList from '@/components/ProductsList.vue';
+import AppCart from '@/views/AppCart.vue';
+import ProductsList from '@/views/ProductsList.vue';
 
 Vue.use(VueRouter);
 

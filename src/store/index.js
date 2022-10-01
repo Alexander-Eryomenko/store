@@ -6,16 +6,12 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
-    isCartShow: false,
     products: [],
     productsInCart: [],
   },
   mutations: {
     setProducts(state, data) {
       state.products = data;
-    },
-    setCartItemFromLocalStorage(state, products) {
-      state.productsInCart = products;
     },
     setItemToCart(state, product) {
       if (state.productsInCart.length) {
